@@ -1,0 +1,26 @@
+# ---- Core (used from Phase 1) ----
+numpy
+pandas
+matplotlib
+seaborn
+opencv-python
+Pillow
+python-dotenv
+tqdm
+
+# ---- Computer Vision / Model training (later phases) ----
+tensorflow>=2.15,<2.17
+scikit-learn
+
+# ---- RAG / Vector DB (later phases) ----
+faiss-cpu
+sentence-transformers
+langchain-text-splitters
+
+# ---- Grok (xAI) LLM client (later phases) ----
+# xAI's Grok API is OpenAI-API-compatible, so the official `openai` client
+# works by pointing base_url at https://api.x.ai/v1
+openai
+
+# ---- Testing ----
+pytest
